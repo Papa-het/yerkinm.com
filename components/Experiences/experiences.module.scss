@@ -1,0 +1,50 @@
+.experiences {
+  padding: 1.5rem;
+}
+
+.experiencesTitle {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  margin: 0 0 1rem;
+}
+
+.logo {
+  min-width: 5rem;
+  align-self: flex-start;
+  padding-top: 2rem;
+}
+
+.info {
+  padding-left: 2rem;
+}
+
+.date {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.company {
+  font-size: 14px;
+  color: #828282;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
