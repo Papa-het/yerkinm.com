@@ -1,7 +1,13 @@
 import * as React from 'react';
 
+import { Layout, MainPageComponent } from 'components';
+
 const MainPage: React.FC = () => {
-  return <div>MainPage</div>;
+  return (
+    <Layout>
+      <MainPageComponent />
+    </Layout>
+  );
 };
 
 export default MainPage;

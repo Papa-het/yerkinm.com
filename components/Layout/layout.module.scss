@@ -1,0 +1,19 @@
+.layout {
+  font-family: 'Merriweather';
+  color: #4f4f4f;
+
+  padding: 2rem 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media (min-width: 48rem) {
+    max-width: 70rem;
+    padding: 5rem 0;
+  }
+  @media (min-width: 64rem) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

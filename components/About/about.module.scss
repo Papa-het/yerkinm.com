@@ -1,0 +1,71 @@
+@mixin iconPadding($image) {
+  padding-left: 1.8rem;
+  position: relative;
+  color: #828282;
+  text-decoration: none;
+  display: inline-block;
+
+  &::before {
+    content: url($image);
+    position: absolute;
+    left: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+    color: #4f4f4f;
+  }
+}
+
+.about {
+  padding: 1.5rem;
+
+  img {
+    min-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.7rem;
+  }
+}
+
+.name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-block-end: 0;
+}
+
+.position {
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  margin-block-start: 0.5rem;
+}
+
+.email {
+  @include iconPadding('/icons/email.svg');
+}
+
+.phone {
+  @include iconPadding('/icons/phone.svg');
+  margin: 0.5rem 0 0.2rem;
+}
+
+.location {
+  @include iconPadding('/icons/location.svg');
+  cursor: unset !important;
+  padding-top: 0.3rem;
+
+  &::before {
+    top: 2px;
+    left: -2px;
+  }
+}
+
+.description {
+  margin-top: 2rem;
+  width: 100%;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
