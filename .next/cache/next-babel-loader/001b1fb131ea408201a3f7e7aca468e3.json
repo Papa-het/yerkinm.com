@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { MainPageComponent } from './MainPage';","map":{"version":3,"sources":["/Users/yerkin/Desktop/personal/yerkinm/components/index.ts"],"names":["MainPageComponent"],"mappings":"AAAA,SAASA,iBAAT,QAAkC,YAAlC","sourcesContent":["export { MainPageComponent } from './MainPage';\n"]},"metadata":{},"sourceType":"module"}
