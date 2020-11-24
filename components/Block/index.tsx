@@ -7,7 +7,7 @@ const Block: React.FC<IProps> = ({ children, addClass }) => {
 };
 
 interface IProps {
-  addClass: string;
+  addClass?: string;
 }
 
 export { Block };

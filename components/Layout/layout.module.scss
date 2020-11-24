@@ -1,5 +1,5 @@
 .layout {
-  font-family: 'Merriweather';
+  font-family: 'Montserrat';
   color: #4f4f4f;
 
   padding: 2rem 0;
@@ -13,6 +13,7 @@
     padding: 5rem 0;
   }
   @media (min-width: 64rem) {
+    max-width: 80rem;
     padding-left: 0;
     padding-right: 0;
   }

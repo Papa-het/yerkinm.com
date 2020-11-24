@@ -25,7 +25,7 @@ const Experiences: React.FC = () => {
   return (
     <div className={styles.experiences}>
       <p className={styles.experiencesTitle}>Опыт работы</p>
-      <ul className={styles.list}>
+      <ul>
         {list.map((el, i) => (
           <li key={i} className={styles.item}>
             <img className={styles.logo} src={el.logo} alt="logo" />

@@ -3,19 +3,14 @@
 }
 
 .experiencesTitle {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 29px;
-}
-
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  margin: 0 0 1rem;
 }
 
 .item {
   display: flex;
-  margin: 0 0 1rem;
+  margin: 0 0 1.5rem;
 }
 
 .logo {
@@ -44,7 +39,8 @@
 }
 
 .description {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
+  font-style: italic;
   color: #828282;
 }
