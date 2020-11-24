@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { Layout } from './Layout';","map":{"version":3,"sources":["/Users/yerkin/Desktop/personal/yerkinm/components/index.ts"],"names":["Layout"],"mappings":"AAAA,SAASA,MAAT,QAAuB,UAAvB","sourcesContent":["export { Layout } from './Layout';\n"]},"metadata":{},"sourceType":"module"}
